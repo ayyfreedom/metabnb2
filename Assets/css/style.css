@@ -1,0 +1,490 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Red Rose";
+  list-style-type: none;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  /* overflow-x: hidden; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding: 25px 55px;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 500;
+}
+
+.header .logo {
+  width: 231px;
+  height: 34.67px;
+  /* position: fixed; */
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  margin-left: 25px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #434343;
+}
+
+.header .connect-btn {
+  font-weight: 400;
+  font-size: 14px;
+  width: 170px;
+  height: 48px;
+  color: #fff;
+  padding: 15px 26px 13px 27px;
+  border: none;
+  line-height: 10px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  /* display: none; */
+  cursor: pointer;
+}
+
+.header i {
+  display: none;
+}
+
+.header .xl-logo {
+  display: none;
+}
+
+.hero {
+  margin-top: 175px;
+  width: 1211px;
+  /* background: #434343; */
+  height: 459px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+.hero .text {
+  /* background-color: aqua; */
+  height: 400.8px;
+  width: 646px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.hero .text h1 {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 78.4px;
+  width: 646px;
+  height: 148px;
+  color: rgba(67, 67, 67, 1);
+}
+
+.hero .text span {
+  color: rgba(160, 34, 121, 1);
+}
+
+.hero .text p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  width: 636px;
+  height: 102px;
+  color: rgba(67, 67, 67, 1);
+}
+
+.hero .text input {
+  width: 390px;
+  height: 54px;
+  color: #434343;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 15px;
+  outline: none;
+  border-radius: 8px 0px 0px 8px;
+  border: solid 1px rgba(163, 163, 163, 1);
+  /* padding-right: 10px; */
+}
+
+.hero .text .input-bar {
+  border-radius: 8px;
+  /* border: solid 1px rgba(163, 163, 163, 1); */
+  display: flex;
+  align-self: flex-start;
+  justify-content: space-between;
+  width: 618.71px;
+  height: 54.8px;
+}
+
+.hero .text input::placeholder {
+  width: 149px;
+  height: 15px;
+  margin-left: 15px;
+  color: #434343;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.hero .text .search-btn {
+  width: 230px;
+  height: 54px;
+  padding: 17px 0px 17px 0px;
+  border-radius: 0px 8px 8px 0px;
+  background: rgba(160, 34, 121, 1);
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.hero .img {
+  width: 476px;
+  height: 459px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hero .boxey {
+  align-items: flex-end;
+  display: flex;
+  height: 459px;
+  width: 236px;
+}
+
+.hero .box-a img {
+  width: 234px;
+  height: 176px;
+}
+
+.hero .box-b img {
+  width: 234px;
+  height: 176px;
+}
+
+.sponsors {
+  height: 70px;
+  width: 100%;
+  background: rgba(160, 34, 121, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 58px;
+  margin-top: 67px;
+}
+
+.sponsors2 {
+  height: 65px;
+  width: 100%;
+  background: rgba(160, 34, 121, 1);
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 38px;
+  margin-bottom: 58px;
+  padding: 0px 20px;
+}
+
+.sponsors2 .mb {
+  width: 45px;
+  height: 45px;
+}
+
+.sponsors2 .meta {
+  width: 35.88px;
+  height: 35.56px;
+}
+
+.sponsors2 .opensea {
+  width: 33.32px;
+  height: 35.79px;
+}
+
+.sponsors .mbtoken {
+  width: 222px;
+  height: 50px;
+}
+
+.sponsors .metamask {
+  width: 214.14px;
+  height: 37.56px;
+}
+
+.sponsors .opensea {
+  width: 198.32px;
+  height: 40.79px;
+}
+
+.inspiration {
+  width: 1440px;
+  height: 963px;
+  display: grid;
+  place-items: center;
+  /* background-color: red; */
+  /* box-sizing: border-box; */
+  /* display: none; */
+}
+
+.box {
+  width: 1240px;
+  height: 768px;
+  /* background-color: white; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.loop {
+  width: 260px;
+  height: 265px;
+}
+
+.inspiration .img {
+  /* background-color: green; */
+  width: 292px;
+  height: 372px;
+  border-radius: 15px;
+  border: solid rgba(215, 215, 215, 1) 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.inspiration h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59.95px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  /* display: none; */
+}
+
+.flex1 p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.2px;
+  text-align: left;
+  color: rgba(67, 67, 67, 1);
+}
+
+.flex1 h5 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 13.2px;
+  text-align: right;
+  color: rgba(67, 67, 67, 1);
+}
+
+.flex2 p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.2px;
+  color: rgba(67, 67, 67, 1);
+}
+
+.flex1,
+.flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 262px;
+  height: 14px;
+}
+
+.flex3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 262px;
+  height: 12px;
+}
+
+.star {
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+}
+
+.nfts {
+  width: 1440px;
+  height: 774px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+.nfts .nft-text {
+  margin-left: 100px;
+}
+
+.nfts .nft-text h3 {
+  width: 346px;
+  height: 60px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59.95px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+
+}
+
+.nfts .nft-text p {
+  width: 415px;
+  height: 136px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 35px;
+}
+
+.nfts .nft-text .learnmore-btn {
+  width: 156px;
+  height: 48px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: rgba(160, 34, 121, 1);
+  margin-top: 71.55px;
+  cursor: pointer;
+  border: none;
+}
+
+.nfts .nft-img {
+  margin-right: 99px;
+}
+
+.nfts .nft-img img {
+  width: 704px;
+  height: 574.85px;
+}
+
+.footer {
+  width: 1440px;
+  height: 322px;
+  background-color: rgba(29, 29, 30, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .socials {
+  margin-left: 113px;
+  height: 322px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* background-color: green; */
+}
+
+.footer .socials .icon {
+  width: 233px;
+  height: 40px;
+}
+
+.footer .socials .socials-logo img {
+  width: 18px;
+  height: 18px;
+  margin-right: 32px;
+}
+
+.footer .socials .socials-logo .fb {
+  width: 9px;
+  height: 18px;
+}
+
+.footer .socials .copyright {
+  width: 139px;
+  height: 18px;
+  display: flex;
+}
+
+.footer .socials .copyright img {
+  width: 15px;
+  height: 15px;
+  margin-right: 9.5px;
+}
+
+.footer .socials .copyright p {
+  width: 233px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(247, 247, 247, 1);
+}
+
+.footer .community {
+  /* background-color: red; */
+  width: 696px;
+  height: 169px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 209px;
+}
+
+.footer .community .minibox {
+  /* background-color: green; */
+  width: 101px;
+  height: 169px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer .community .minibox h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.48px;
+  text-align: left;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.footer .community .minibox p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  color: rgba(241, 243, 249, 1);
+}
+
+.footer .community .minibox .space {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  color: white;
+  margin-top: 16px;
+}

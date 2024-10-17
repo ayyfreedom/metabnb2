@@ -1,0 +1,248 @@
+/* @media (max-width: 1024px) {
+  .header .logo {
+    width: 191px;
+    height: 30.67px;
+  }
+
+  .header {
+    padding: 25px 35px;
+  }
+
+  .header i {
+    display: block;
+    font-weight: 400;
+    font-size: 35px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .connect-btn {
+    display: none;
+  }
+
+  .hero .text .content .input-bar {
+    display: none;
+  }
+} */
+
+/* @media (max-width: 1259px) {
+  .hero .text .content .input-bar {
+    display: none;
+  } */
+/* .hero {
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+  }
+  .navbar a {
+    margin-left: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #434343;
+  }
+  .hero  {
+    /* width: 100%;
+    gap: 80px;
+    height: 550px; */
+/* }
+  .hero .text .content h1 {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 58.4px;
+    text-align: center;
+    width: 90%;
+    height: 148px;
+    color: rgba(67, 67, 67, 1);
+  }
+
+  .hero .text .content p {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    width: 90%;
+    height: 102px;
+    color: rgba(67, 67, 67, 1);
+  }  */
+/* .hero .img img {
+    width: 274px;
+    height: 216px;
+  }
+  .sponsors .mbtoken {
+    width: 111px;
+    height: 25px;
+  }
+  .sponsors .metamask {
+    width: 107.7px;
+    height: 18.78px;
+  }
+  .sponsors .opensea {
+    width: 99.16px;
+    height: 20.395px;
+  }
+}
+.sponsors {
+  margin-top: 58px;
+} */
+/* @media (max-width: 581px) {
+  .hero .text .content {
+    /* background-color: aqua; 
+    height: 700.8px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .hero {
+    margin-top: 87.5px;
+    height: 900px;
+    /* background-color: red;
+  }
+
+  .hero .text .content h1 {
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 48.4px;
+    text-align: center;
+    width: 90%;
+    height: 148px;
+    color: rgba(67, 67, 67, 1);
+  }
+
+  .hero .text .content p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 55px;
+    text-align: center;
+    width: 90%;
+    height: 102px;
+    color: rgba(67, 67, 67, 1);
+  }
+
+  .hero .img img {
+    width: 175.5px;
+    height: 132px;
+  }
+
+  .hero .text .content {
+    /* background-color: aqua; 
+    height: 400.8px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .sponsors {
+    display: none;
+  }
+}
+
+@media (max-width: 475px) {
+  .header .logo {
+    display: none;
+  }
+
+  .header .xl-logo {
+    display: block;
+    font-size: 30px;
+  }
+
+  .hero .text .content {
+    background-color: aqua;
+    height: 400.8px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .hero .text .content h1 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48.4px;
+    text-align: center;
+    width: 90%;
+    height: 148px;
+    color: rgba(67, 67, 67, 1);
+  }
+
+  .hero .text .content p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    width: 90%;
+    height: 102px;
+    color: rgba(67, 67, 67, 1);
+  }
+
+  .hero {
+    height: 800px;
+  }
+
+  .sponsors {
+    margin-top: 58px;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero {
+    height: 650px;
+    /* background-color: blue; 
+  }
+
+  .hero .text .content {
+    background-color: aqua; 
+     height: 400.8px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+  }
+
+  .hero .text .content h1 {
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 48.4px;
+    text-align: center;
+    width: 90%;
+    height: 148px;
+    color: rgba(67, 67, 67, 1);
+  }
+
+  .hero .text .content p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 90%;
+    height: 102px;
+    color: rgba(67, 67, 67, 1);
+  }
+}
+
+@media (max-width: 385px) {
+  .hero .text .content h1 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+    text-align: center;
+    width: 90%;
+    height: 148px;
+    color: rgba(67, 67, 67, 1);
+  }
+
+  .hero .img img {
+    width: 121.625px;
+    height: 89px;
+  }
+
+  .sponsors {
+    display: none;
+  }
+
+  .connect-btn {
+    display: none;
+  }
+} */

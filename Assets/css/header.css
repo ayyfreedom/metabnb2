@@ -1,0 +1,80 @@
+/* @media (max-width: 820px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 25px 35px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .header i {
+    display: block;
+    font-weight: 400;
+    font-size: 35px;
+  }
+  .header .connect-btn {
+    font-weight: 400;
+    max-width: fit-content;
+    height: 38px;
+    color: #fff;
+    padding: 15px 26px 13px 27px;
+    border: none;
+    line-height: 10px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+    display: none;
+  }
+  .navbar {
+    display: none;
+  }
+  .sponsors {
+    display: none;
+  }
+  .sponsors2 {
+    display: flex;
+  }
+}
+
+@media (max-width: 575px) {
+  .header .logo {
+    width: 173.25px;
+    height: 26.0025px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 25px 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .header .connect-btn {
+    font-weight: 400;
+    max-width: fit-content;
+    height: 38px;
+    color: #fff;
+    padding: 15px 26px 13px 27px;
+    border: none;
+    line-height: 10px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  }
+}
+@media (max-width: 385px) {
+  .header .logo {
+    display: none;
+  }
+  .header .xl-logo {
+    display: block;
+    font-size: 20px;
+    color: #a02279;
+  }
+} */
